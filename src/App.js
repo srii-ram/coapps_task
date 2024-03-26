@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Firstcomponent from './FirstComponent';
 
 function App() {
+  const name="abc"
+  const age="28"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>student details</h1>
+      <Firstcomponent n={name} a={age}/>
     </div>
   );
 }

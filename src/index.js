@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './task.css';
+// import App from './App';
+import Firstcomponent from './FirstComponent';
 import reportWebVitals from './reportWebVitals';
-
+import App from './task.jsx'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
